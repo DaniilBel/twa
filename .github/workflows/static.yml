@@ -30,7 +30,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
           path: './dist'
